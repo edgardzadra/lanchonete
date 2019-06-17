@@ -17,7 +17,7 @@ public class BurguerDto {
 
     public  BurguerDto(String description, List<Ingredient> ingredients, BigDecimal totalAmount){
         this.ingredients = new ArrayList<>();
-        ingredients.forEach(i -> this.ingredients.add(new IngredientsDto(i.getDescription())));
+        ingredients.forEach(i -> this.ingredients.add(new IngredientsDto(i)));
         this.description = description;
         this.totalAmount = totalAmount;
     }

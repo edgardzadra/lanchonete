@@ -1,9 +1,10 @@
 package com.desafio.lanchonete;
 
+import com.desafio.lanchonete.domain.dto.BurguerDto;
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.PromotionFactory;
 import com.desafio.lanchonete.repository.BurguerRepository;
 import com.desafio.lanchonete.repository.IngredientRepository;
-import com.desafio.lanchonete.utils.PromotionValidator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class CustomBurgerTests {
 
     @Autowired
-    private PromotionValidator promotionValidator;
+    private PromotionFactory factory;
 
     @Autowired
     private IngredientRepository ingredientRepository;
@@ -46,9 +47,10 @@ public class CustomBurgerTests {
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
-        totalAmount = promotionValidator.applyPromotions(ingredientList,totalAmount);
+        BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
+        factory.applyPromotion(burger);
 
-        assertThat(totalAmount).isEqualTo(BigDecimal.valueOf(9.8));
+        assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(9.8));
     }
 
     @Test
@@ -74,9 +76,10 @@ public class CustomBurgerTests {
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
-        totalAmount = promotionValidator.applyPromotions(ingredientList,totalAmount);
+        BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
+        factory.applyPromotion(burger);
 
-        assertThat(totalAmount).isEqualTo(BigDecimal.valueOf(14.3));
+        assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(14.3));
     }
 
     @Test
@@ -96,9 +99,10 @@ public class CustomBurgerTests {
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
-        totalAmount = promotionValidator.applyPromotions(ingredientList,totalAmount);
+        BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
+        factory.applyPromotion(burger);
 
-        assertThat(totalAmount).isEqualTo(BigDecimal.valueOf(5.3));
+        assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(5.3));
     }
 
     @Test
@@ -123,9 +127,10 @@ public class CustomBurgerTests {
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
-        totalAmount = promotionValidator.applyPromotions(ingredientList,totalAmount);
+        BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
+        factory.applyPromotion(burger);
 
-        assertThat(totalAmount).isEqualTo(BigDecimal.valueOf(6.48));
+        assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(6.48));
     }
 
     @Test
@@ -153,8 +158,9 @@ public class CustomBurgerTests {
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
-        totalAmount = promotionValidator.applyPromotions(ingredientList,totalAmount);
+        BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
+        factory.applyPromotion(burger);
 
-        assertThat(totalAmount).isEqualTo(BigDecimal.valueOf(9.2));
+        assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(9.2));
     }
 }

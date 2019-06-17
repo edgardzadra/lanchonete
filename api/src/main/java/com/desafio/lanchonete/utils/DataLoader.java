@@ -2,6 +2,7 @@ package com.desafio.lanchonete.utils;
 
 import com.desafio.lanchonete.domain.model.Burguer;
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.IngredientsEnum;
 import com.desafio.lanchonete.repository.BurguerRepository;
 import com.desafio.lanchonete.repository.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,11 @@ public class DataLoader implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        ingredientRepository.save(new Ingredient("Alface", BigDecimal.valueOf(0.40)));
-        ingredientRepository.save(new Ingredient("Bacon", BigDecimal.valueOf(2.00)));
-        ingredientRepository.save(new Ingredient("Hámburguer de carne", BigDecimal.valueOf(3.00)));
-        ingredientRepository.save(new Ingredient("Ovo", BigDecimal.valueOf(0.80)));
-        ingredientRepository.save(new Ingredient("Queijo", BigDecimal.valueOf(1.50)));
+        ingredientRepository.save(new Ingredient(IngredientsEnum.ALFACE.getDescription(), IngredientsEnum.ALFACE.getValue()));
+        ingredientRepository.save(new Ingredient(IngredientsEnum.BACON.getDescription(), IngredientsEnum.BACON.getValue()));
+        ingredientRepository.save(new Ingredient(IngredientsEnum.HAMBURGUER.getDescription(), IngredientsEnum.HAMBURGUER.getValue()));
+        ingredientRepository.save(new Ingredient(IngredientsEnum.OVO.getDescription(), IngredientsEnum.OVO.getValue()));
+        ingredientRepository.save(new Ingredient(IngredientsEnum.QUEIJO.getDescription(), IngredientsEnum.QUEIJO.getValue()));
 
         List<Ingredient> ingredients = ingredientRepository.findAll();
 

@@ -2,81 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98cd750c-a41f-4490-8114-1de03c8473e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/cardapio.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/customizado/customizado.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/customizado/customizado.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/customizado/customizado.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/customizado/customizado.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-customizado/lanche-customizado.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-customizado/lanche-customizado.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-customizado/lanche-customizado.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-customizado/lanche-customizado.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-padrao/lanche-padrao.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-padrao/lanche-padrao.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-padrao/lanche-padrao.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche-padrao/lanche-padrao.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/lanche.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/model/Ingredient.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/model/LanchePadrao.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/tabela/tabela.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/tabela/tabela.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/tabela/tabela.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/cardapio/tabela/tabela.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/navbar/navbar.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/navbar/navbar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/navbar/navbar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/app/navbar/navbar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lanchonete.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/image-id" beforeDir="false" afterPath="$PROJECT_DIR$/target/docker/image-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT-docker-info.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT-docker-info.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.CustomBurgerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.CustomBurgerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.DefaultBurguerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.DefaultBurguerTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.CustomBurgerTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.CustomBurgerTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.DefaultBurguerTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.DefaultBurguerTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/image-id" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/image-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/lanchonete.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/config/ApiProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/IngredientsEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/PromotionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Salad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/cors/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/cors/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/BurguerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/BurguerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/IngredientsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/IngredientsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/service/BurguerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/service/BurguerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/PromotionValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/desafio/lanchonete/CustomBurgerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/desafio/lanchonete/CustomBurgerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/BurguerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/BurguerDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/IngredientsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/IngredientsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/service/BurguerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/service/BurguerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/utils/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/utils/DataLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/utils/PromotionValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/desafio/lanchonete/CustomBurgerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/desafio/lanchonete/CustomBurgerTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relatorio justificativas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../relatorio justificativas.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +35,124 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Cheese.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/config/ApiProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/cors/CorsFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Meat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/IngredientsEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/DataLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Salad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/PromotionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="140" selection-start-line="12" selection-start-column="140" selection-end-line="12" selection-end-column="140" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/service/BurguerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/desafio/lanchonete/CustomBurgerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="132" column="77" selection-start-line="132" selection-start-column="77" selection-end-line="132" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -95,6 +161,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lanchonete.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/BurguerDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/IngredientsDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Promotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Salad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/PromotionValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/service/BurguerService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/desafio/lanchonete/CustomBurgerTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/PromotionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/IngredientsEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Meat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Cheese.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/config/ApiProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/cors/CorsFilter.java" />
       </list>
     </option>
@@ -122,9 +201,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="360" />
-    <option name="y" value="269" />
-    <option name="width" value="1336" />
+    <option name="x" value="262" />
+    <option name="y" value="216" />
+    <option name="width" value="1356" />
     <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,13 +281,109 @@
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanchonete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="lanchonete" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -226,7 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomBurgerTests">
     <configuration name="LanchoneteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.desafio.lanchonete.LanchoneteApplication" />
       <module name="lanchonete" />
@@ -240,8 +416,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomBurgerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lanchonete" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desafio.lanchonete.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.desafio.lanchonete" />
+      <option name="MAIN_CLASS_NAME" value="com.desafio.lanchonete.CustomBurgerTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomBurgerTests" />
         <item itemvalue="Application.LanchoneteApplication" />
       </list>
     </recent_temporary>
@@ -259,23 +450,55 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 08m 11s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 11m 03s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 17m 23s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 18m 43s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 22m 51s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 23m 17s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 24m 08s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 24m 19s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.14 at 18h 35m 55s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomBurgerTests - 2019.06.17 at 08h 06m 19s.xml">
+      <configuration name="CustomBurgerTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18356457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21024546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28451002" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21074815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.060063224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
@@ -287,15 +510,15 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19850586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28451002" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39936775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -312,6 +535,55 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout-to-restore>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Queijo&quot;).divide(BigDecimal.valueOf(3)).longValue() / 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Queijo&quot;).divide(BigDecimal.valueOf(3)).longValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Queijo&quot;).divide(BigDecimal.valueOf(3))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cheese.get().getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(listOfIngredients.get(&quot;Hámburguer de carne&quot;).doubleValue() / 3) / 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Hámburguer de carne&quot;).doubleValue() / 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Hámburguer de carne&quot;).stringCache</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Hámburguer de carne&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOfIngredients.get(&quot;Hámburguer de carne&quot;).divideAndRemainder(BigDecimal.valueOf(3))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lanchonete.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -326,10 +598,132 @@
     <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Burguer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/PromotionValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/IngredientsDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Promotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/dto/BurguerDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/service/BurguerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/desafio/lanchonete/CustomBurgerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="132" column="77" selection-start-line="132" selection-start-column="77" selection-end-line="132" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/IngredientsEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/utils/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Salad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/PromotionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="140" selection-start-line="12" selection-start-column="140" selection-end-line="12" selection-end-column="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Meat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/domain/model/Cheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/config/ApiProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desafio/lanchonete/cors/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        <state relative-caret-position="510">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>

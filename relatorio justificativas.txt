@@ -3,3 +3,5 @@ Utilizei para o desenvolvimento da API o framework Spring, pois o mesmo possibil
 Para o desnevolvimento do Front utilizei o Angular pois acho ele mais intuitivo e mais próximo dos padrões de desenvolvimento backend tornando o desenvolvimento um pouco mais prático. procurei componentizar cada parte do sistema para possíveis re-uso de código. Utilizei os componentes da primeNG pois eles já vem prontos para uso com pouca configuração, tornando o desenvolvimento um pouco mais produtivo, também coloquei docker com o nginx para proxy reverso para a porta 80.
 
 Docker, estou utilizando o Docker compose, assim para melhorar a manipulação   de todos os containers do projeto.
+
+Tive algumas dificuldades com o nginx e o Front não está rodando na porta 80 mas sim na 4200.
