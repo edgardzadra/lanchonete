@@ -13,12 +13,12 @@ public class Ingredient {
     private Long id;
     private String description;
     private BigDecimal value;
+    private IngredientsEnum ingredient;
 
-    public Ingredient(){}
-
-    public Ingredient(String descripton,BigDecimal value) {
+    public Ingredient(String descripton,BigDecimal value, IngredientsEnum ingredient) {
         this.description = descripton;
         this.value = value;
+        this.ingredient = ingredient;
     }
 
     public Long getId() {
@@ -43,6 +43,10 @@ public class Ingredient {
 
     public void setValue(BigDecimal value) {
         this.value = value;
+    }
+
+    public IngredientsEnum getIngredient() {
+        return ingredient;
     }
 
     @Override

@@ -4,7 +4,7 @@ import com.desafio.lanchonete.domain.dto.BurguerDto;
 
 import java.math.BigDecimal;
 
-public class Salad implements Promotion{
+public class SaladPromotion implements Promotion{
 
     @Override
     public BurguerDto applyDiscount(BurguerDto burguer) {

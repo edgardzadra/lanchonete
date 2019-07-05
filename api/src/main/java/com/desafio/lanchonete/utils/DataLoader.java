@@ -2,6 +2,7 @@ package com.desafio.lanchonete.utils;
 
 import com.desafio.lanchonete.domain.model.Burguer;
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.IngredientBuilder;
 import com.desafio.lanchonete.domain.model.IngredientsEnum;
 import com.desafio.lanchonete.repository.BurguerRepository;
 import com.desafio.lanchonete.repository.IngredientRepository;
@@ -25,11 +26,11 @@ public class DataLoader implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        ingredientRepository.save(new Ingredient(IngredientsEnum.ALFACE.getDescription(), IngredientsEnum.ALFACE.getValue()));
-        ingredientRepository.save(new Ingredient(IngredientsEnum.BACON.getDescription(), IngredientsEnum.BACON.getValue()));
-        ingredientRepository.save(new Ingredient(IngredientsEnum.HAMBURGUER.getDescription(), IngredientsEnum.HAMBURGUER.getValue()));
-        ingredientRepository.save(new Ingredient(IngredientsEnum.OVO.getDescription(), IngredientsEnum.OVO.getValue()));
-        ingredientRepository.save(new Ingredient(IngredientsEnum.QUEIJO.getDescription(), IngredientsEnum.QUEIJO.getValue()));
+        ingredientRepository.save(new IngredientBuilder().setDescripton("Alface").setValue(BigDecimal.valueOf(0.40)).withIngredient(IngredientsEnum.ALFACE).createIngredient());
+        ingredientRepository.save(new IngredientBuilder().setDescripton("Bacon").setValue(BigDecimal.valueOf(2.00)).withIngredient(IngredientsEnum.BACON).createIngredient());
+        ingredientRepository.save(new IngredientBuilder().setDescripton("Hámburguer de carne").setValue(BigDecimal.valueOf(3.00)).withIngredient(IngredientsEnum.HAMBURGUER_CARNE).createIngredient());
+        ingredientRepository.save(new IngredientBuilder().setDescripton("Ovo").setValue(BigDecimal.valueOf(0.80)).withIngredient(IngredientsEnum.OVO).createIngredient());
+        ingredientRepository.save(new IngredientBuilder().setDescripton("Queijo").setValue(BigDecimal.valueOf(1.50)).withIngredient(IngredientsEnum.QUEIJO).createIngredient());
 
         List<Ingredient> ingredients = ingredientRepository.findAll();
 

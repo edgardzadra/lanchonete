@@ -1,6 +1,7 @@
 package com.desafio.lanchonete.domain.dto;
 
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.IngredientsEnum;
 
 import java.math.BigDecimal;
 
@@ -8,6 +9,7 @@ public class IngredientsDto {
 
     private String description;
     private BigDecimal value;
+    private IngredientsEnum ingredients;
 
     public IngredientsDto(){}
 
@@ -15,6 +17,7 @@ public class IngredientsDto {
     {
         this.description = ingredient.getDescription();
         this.value = ingredient.getValue();
+        this.ingredients = ingredient.getIngredient();
     }
 
     public String getDescription() {
@@ -31,5 +34,9 @@ public class IngredientsDto {
 
     public void setValue(BigDecimal value) {
         this.value = value;
+    }
+
+    public IngredientsEnum getIngredients() {
+        return ingredients;
     }
 }

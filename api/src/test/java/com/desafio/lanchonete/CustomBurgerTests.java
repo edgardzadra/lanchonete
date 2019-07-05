@@ -2,48 +2,45 @@ package com.desafio.lanchonete;
 
 import com.desafio.lanchonete.domain.dto.BurguerDto;
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.IngredientBuilder;
+import com.desafio.lanchonete.domain.model.IngredientsEnum;
 import com.desafio.lanchonete.domain.model.PromotionFactory;
-import com.desafio.lanchonete.repository.BurguerRepository;
-import com.desafio.lanchonete.repository.IngredientRepository;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
 public class CustomBurgerTests {
 
-    @Autowired
-    private PromotionFactory factory;
+    private PromotionFactory factory = new PromotionFactory();
 
-    @Autowired
-    private IngredientRepository ingredientRepository;
+    private List<Ingredient> ingredientList;
+    private Ingredient meat;
+    private Ingredient ovo;
+    private Ingredient queijo;
+    private Ingredient alface;
+    private Ingredient bacon;
 
-    @Autowired
-    private BurguerRepository burguerRepository;
+    @Before
+    public void setUp(){
+        ingredientList = new ArrayList<>();
+        meat = new IngredientBuilder().setDescripton("Hámburguer de carne").setValue(BigDecimal.valueOf(3.00)).withIngredient(IngredientsEnum.HAMBURGUER_CARNE).createIngredient();
+        ovo = new IngredientBuilder().setDescripton("Ovo").setValue(BigDecimal.valueOf(0.80)).withIngredient(IngredientsEnum.OVO).createIngredient();
+        queijo = new IngredientBuilder().setDescripton("Queijo").setValue(BigDecimal.valueOf(1.50)).withIngredient(IngredientsEnum.QUEIJO).createIngredient();
+        alface = new IngredientBuilder().setDescripton("Alface").setValue(BigDecimal.valueOf(0.40)).withIngredient(IngredientsEnum.ALFACE).createIngredient();
+        bacon = new IngredientBuilder().setDescripton("Bacon").setValue(BigDecimal.valueOf(2.00)).withIngredient(IngredientsEnum.BACON).createIngredient();
+    }
 
     @Test
     public void valid_burguer_with_only_meat_discount(){
-        Ingredient meat = new Ingredient("Hámburguer de carne",BigDecimal.valueOf(3.00));
-        meat.setId(1L);
-        Ingredient ovo = new Ingredient("Ovo",BigDecimal.valueOf(0.80));
-        ovo.setId(2L);
 
-        List<Ingredient> ingredientList = new ArrayList<>();
-
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(ovo);
+        List<Ingredient> ingredients = Arrays.asList(meat,meat,meat,meat,ovo);
+        addIngredientsToList(ingredients);
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
@@ -55,24 +52,9 @@ public class CustomBurgerTests {
 
     @Test
     public void valid_burguer_with_meat_and_cheese_discount(){
-        Ingredient meat = new Ingredient("Hámburguer de carne",BigDecimal.valueOf(3.00));
-        meat.setId(1L);
-        Ingredient ovo = new Ingredient("Ovo",BigDecimal.valueOf(0.80));
-        ovo.setId(2L);
-        Ingredient queijo = new Ingredient("Queijo",BigDecimal.valueOf(1.50));
-        queijo.setId(3L);
 
-        List<Ingredient> ingredientList = new ArrayList<>();
-
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(meat);
-        ingredientList.add(ovo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
+        List<Ingredient> ingredients = Arrays.asList(meat,meat,meat,meat,ovo,queijo,queijo,queijo,queijo);
+        addIngredientsToList(ingredients);
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
@@ -84,18 +66,9 @@ public class CustomBurgerTests {
 
     @Test
     public void valid_burguer_with_only_cheese_discount(){
-        Ingredient ovo = new Ingredient("Ovo",BigDecimal.valueOf(0.80));
-        ovo.setId(2L);
-        Ingredient queijo = new Ingredient("Queijo",BigDecimal.valueOf(1.50));
-        queijo.setId(3L);
 
-        List<Ingredient> ingredientList = new ArrayList<>();
-
-        ingredientList.add(ovo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
+        List<Ingredient> ingredients = Arrays.asList(ovo,queijo,queijo,queijo,queijo);
+        addIngredientsToList(ingredients);
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
@@ -107,25 +80,11 @@ public class CustomBurgerTests {
 
     @Test
     public void valid_burguer_with_salad_discount(){
-        Ingredient meat = new Ingredient("Hámburguer de carne",BigDecimal.valueOf(3.00));
-        meat.setId(1L);
-        Ingredient ovo = new Ingredient("Ovo",BigDecimal.valueOf(0.80));
-        ovo.setId(2L);
-        Ingredient queijo = new Ingredient("Queijo",BigDecimal.valueOf(1.50));
-        queijo.setId(3L);
-        Ingredient alface = new Ingredient("Alface",BigDecimal.valueOf(0.40));
-        alface.setId(4L);
 
-        List<Ingredient> ingredientList = new ArrayList<>();
+        List<Ingredient> ingredients = Arrays.asList(meat,ovo,queijo,queijo,queijo,alface);
+        addIngredientsToList(ingredients);
 
-        ingredientList.add(ovo);
-        ingredientList.add(meat);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(alface);
-
-        BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
+         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
         BurguerDto burger = new BurguerDto("teste",ingredientList,totalAmount);
         factory.applyPromotion(burger);
@@ -135,26 +94,9 @@ public class CustomBurgerTests {
 
     @Test
     public void valid_burguer_with_salad_and_bacon(){
-        Ingredient meat = new Ingredient("Hámburguer de carne",BigDecimal.valueOf(3.00));
-        meat.setId(1L);
-        Ingredient ovo = new Ingredient("Ovo",BigDecimal.valueOf(0.80));
-        ovo.setId(2L);
-        Ingredient queijo = new Ingredient("Queijo",BigDecimal.valueOf(1.50));
-        queijo.setId(3L);
-        Ingredient alface = new Ingredient("Alface",BigDecimal.valueOf(0.40));
-        alface.setId(4L);
-        Ingredient bacon = new Ingredient("Bacon",BigDecimal.valueOf(2.00));
-        bacon.setId(5L);
 
-        List<Ingredient> ingredientList = new ArrayList<>();
-
-        ingredientList.add(ovo);
-        ingredientList.add(meat);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(queijo);
-        ingredientList.add(alface);
-        ingredientList.add(bacon);
+        List<Ingredient> ingredients = Arrays.asList(meat,ovo,queijo,queijo,queijo,alface,bacon);
+        addIngredientsToList(ingredients);
 
         BigDecimal totalAmount = BigDecimal.valueOf(ingredientList.stream().mapToDouble(i -> i.getValue().doubleValue()).sum());
 
@@ -162,5 +104,9 @@ public class CustomBurgerTests {
         factory.applyPromotion(burger);
 
         assertThat(burger.getTotalAmount()).isEqualTo(BigDecimal.valueOf(9.2));
+    }
+
+    private void addIngredientsToList(List<Ingredient> ingredients){
+        ingredientList.addAll(ingredients);
     }
 }
