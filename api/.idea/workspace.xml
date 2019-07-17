@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="552ccb0e-11aa-4a64-bf55-733130e2906d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanchonete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lanchonete.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/LanchoneteApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/controller/BurguerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/controller/IngredientsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/cors/CorsFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/BurguerDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/dto/IngredientsDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/model/Burguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/domain/model/Ingredient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/repository/BurguerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/repository/IngredientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/service/BurguerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/desafio/lanchonete/utils/DataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/image-id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/image-name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/repository" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/docker/tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT-docker-info.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lanchonete-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.CustomBurgerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.desafio.lanchonete.DefaultBurguerTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.CustomBurgerTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.desafio.lanchonete.DefaultBurguerTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/image-id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/image-name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/repository" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.desafio/lanchonete/tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/desafio/lanchonete/CustomBurgerTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/desafio/lanchonete/DefaultBurguerTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
