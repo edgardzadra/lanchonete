@@ -1,7 +1,9 @@
 package com.desafio.lanchonete.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
+@Component
 @ConfigurationProperties("api")
 public class ApiProperty {
 

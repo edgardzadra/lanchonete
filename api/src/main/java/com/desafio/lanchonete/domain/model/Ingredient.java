@@ -15,6 +15,9 @@ public class Ingredient {
     private BigDecimal value;
     private IngredientsEnum ingredient;
 
+    public Ingredient() {
+    }
+
     public Ingredient(String descripton,BigDecimal value, IngredientsEnum ingredient) {
         this.description = descripton;
         this.value = value;
