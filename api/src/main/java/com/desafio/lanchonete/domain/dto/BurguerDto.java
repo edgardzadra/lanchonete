@@ -1,6 +1,7 @@
 package com.desafio.lanchonete.domain.dto;
 
 import com.desafio.lanchonete.domain.model.Ingredient;
+import com.desafio.lanchonete.domain.model.IngredientsEnum;
 import org.springframework.beans.BeanUtils;
 
 import java.math.BigDecimal;
@@ -44,5 +45,17 @@ public class BurguerDto {
 
     public void setTotalAmount(BigDecimal totalAmount) {
         this.totalAmount = totalAmount;
+    }
+
+    public Long getCountOfAllTypeIngredient(IngredientsEnum ingredient){
+        return ingredients.stream().filter(i -> i.getIngredients() == ingredient).count();
+    }
+
+    public Double getIngredientValueSum(IngredientsEnum ingredient){
+        return ingredients.stream().filter(i ->  i.getIngredients() == ingredient).mapToDouble(i -> i.getValue().doubleValue()).sum();
+    }
+
+    public Double calculateNewValue(Double valueTotalOfIngredients,Long occurences){
+        return (occurences / 3) * (valueTotalOfIngredients / occurences);
     }
 }

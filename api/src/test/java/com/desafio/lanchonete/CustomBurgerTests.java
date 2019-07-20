@@ -7,6 +7,10 @@ import com.desafio.lanchonete.domain.model.IngredientsEnum;
 import com.desafio.lanchonete.domain.model.PromotionFactory;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -15,9 +19,12 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class CustomBurgerTests {
 
-    private PromotionFactory factory = new PromotionFactory();
+    @Autowired
+    private PromotionFactory factory;
 
     private List<Ingredient> ingredientList;
     private Ingredient meat;

@@ -1,27 +1,18 @@
 package com.desafio.lanchonete.domain.model;
 
 import com.desafio.lanchonete.domain.dto.BurguerDto;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
 
 @Component
 public class PromotionFactory {
 
+    @Autowired
+    private List<Promotion> promotion;
+
     public void applyPromotion(BurguerDto burguer){
-        boolean isBacon = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.BACON);
-        boolean isAlface = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.ALFACE);
-        boolean isMeat = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.HAMBURGUER_CARNE);
-        boolean isCheese = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.QUEIJO);
-
-        if(isMeat){
-            burguer = new MeatPromotion().applyDiscount(burguer);
-        }
-
-        if(isCheese){
-            burguer = new CheesePromotion().applyDiscount(burguer);
-        }
-
-        if(isAlface && !isBacon){
-            burguer = new SaladPromotion().applyDiscount(burguer);
-        }
+            promotion.stream().filter(p -> p.isPromotionApplicable(burguer)).forEach(p -> p.applyDiscount(burguer));
     }
 }
