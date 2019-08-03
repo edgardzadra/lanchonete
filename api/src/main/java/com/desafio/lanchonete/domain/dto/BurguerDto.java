@@ -55,7 +55,4 @@ public class BurguerDto {
         return ingredients.stream().filter(i ->  i.getIngredients() == ingredient).mapToDouble(i -> i.getValue().doubleValue()).sum();
     }
 
-    public Double calculateNewValue(Double valueTotalOfIngredients,Long occurences){
-        return (occurences / 3) * (valueTotalOfIngredients / occurences);
-    }
 }
