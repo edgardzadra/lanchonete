@@ -10,8 +10,8 @@ public class SaladPromotion implements Promotion{
 
     @Override
     public boolean isPromotionApplicable(BurguerDto burguer) {
-        boolean isBacon = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.BACON);
-        boolean isAlface = burguer.getIngredients().stream().anyMatch(i -> i.getIngredients() == IngredientsEnum.ALFACE);
+        boolean isBacon = burguer.getCountOfAllTypeIngredient(IngredientsEnum.BACON) > 0;
+        boolean isAlface = burguer.getCountOfAllTypeIngredient(IngredientsEnum.ALFACE) > 0;
 
         return !isBacon && isAlface;
     }

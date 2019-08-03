@@ -1,30 +1,34 @@
 package com.desafio.lanchonete.domain.model;
 
 import com.desafio.lanchonete.domain.dto.BurguerDto;
-import com.desafio.lanchonete.domain.dto.IngredientsDto;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
-import java.util.Map;
-import java.util.stream.Collectors;
+import javax.annotation.PostConstruct;
 
 @Component
-public class CheesePromotion implements Promotion {
+public class CheesePromotion extends AbstractPromotion implements Promotion {
+
+    @Value("${cheeseQty}")
+    private int qtyToDiscount;
+
+    public CheesePromotion(){
+        super(IngredientsEnum.QUEIJO);
+    }
+
+    @PostConstruct
+    public void init(){
+        setQtyToDiscountBeApplyed(qtyToDiscount);
+    }
 
     @Override
     public boolean isPromotionApplicable(BurguerDto burguer) {
-        return burguer.getCountOfAllTypeIngredient(IngredientsEnum.QUEIJO) >= 3;
+        return super.isPromotionApplicable(burguer);
     }
 
     @Override
     public BurguerDto applyDiscount(BurguerDto burguer) {
-
-        long cheeseOccurences = burguer.getCountOfAllTypeIngredient(IngredientsEnum.QUEIJO);
-
-        Double sumOfIngredient = burguer.getIngredientValueSum(IngredientsEnum.QUEIJO);
-        Double quantityToDiscount = burguer.calculateNewValue(sumOfIngredient,cheeseOccurences);
-        burguer.setTotalAmount(burguer.getTotalAmount().subtract(BigDecimal.valueOf(quantityToDiscount)));
-
-        return burguer;
+        return super.applyDiscount(burguer);
     }
+
 }
