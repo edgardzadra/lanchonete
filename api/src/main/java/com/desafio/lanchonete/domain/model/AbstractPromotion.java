@@ -4,7 +4,7 @@ import com.desafio.lanchonete.domain.dto.BurguerDto;
 
 import java.math.BigDecimal;
 
-public class AbstractPromotion {
+public abstract class AbstractPromotion implements Promotion{
 
     private IngredientsEnum ingredient;
     private int qtyToDiscountBeApplyed;
@@ -13,10 +13,12 @@ public class AbstractPromotion {
         this.ingredient = ingredient;
     }
 
+    @Override
     public boolean isPromotionApplicable(BurguerDto burguer) {
         return burguer.getCountOfAllTypeIngredient(ingredient) >= qtyToDiscountBeApplyed;
     }
 
+    @Override
     public BurguerDto applyDiscount(BurguerDto burguer) {
 
         long cheeseOccurences = burguer.getCountOfAllTypeIngredient(ingredient);
