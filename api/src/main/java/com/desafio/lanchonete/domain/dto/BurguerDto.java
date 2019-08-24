@@ -55,4 +55,11 @@ public class BurguerDto {
         return ingredients.stream().filter(i ->  i.getIngredients() == ingredient).mapToDouble(i -> i.getValue().doubleValue()).sum();
     }
 
+    public boolean isBaconAvailable() {
+        return getCountOfAllTypeIngredient(IngredientsEnum.BACON) > 0;
+    }
+    
+    public boolean isSaladAvailable() {
+        return getCountOfAllTypeIngredient(IngredientsEnum.ALFACE) > 0;
+    }
 }
